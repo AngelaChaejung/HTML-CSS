@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .font1 {
+        font-family: "Courier New", Courier, monospace;
+      }
+      .font2 {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .italic {
+        font-style: italic;
+      }
+      .oblique {
+        font-style: oblique;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 글꼴스타일링 -->
+    <h1 style="font-family: verdana">verdana</h1>
+    <h1>normal</h1>
+    <h1 style="font-family: courier">courier</h1>
+    <h1 style="font-family: fantasy">fantasy</h1>
+    <h1 class="font1">font1</h1>
+    <h1 class="font2">font2</h1>
+    <h1 class="italic">italic</h1>
+    <h1 class="oblique">oblique</h1>
+    <p>일반폰트는 400</p>
+    <p style="font-weight: 700">bold는 700</p>
+    <p style="font-weight: bold">bold는 700</p>
+    <div style="font-weight: 100">
+      <p>부모의 두께 100</p>
+      <p style="font-weight: bolder">bolder는 부모가 0~200일 때 400이 됨</p>
+    </div>
+    <div style="font-weight: 400">
+      <p>부모의 두께 400</p>
+      <p style="font-weight: bolder">400이상일 때 700</p>
+    </div>
+    <div style="font-weight: 700">
+      <p>부모의 두께 700</p>
+      <p style="font-weight: bolder">700이상일 때 900</p>
+    </div>
+    <!-- 대부분 브라우저는 폰트 크기가 기본값으로 12pt=16px=1em=100% -->
+    <p style="font-size: 10px">font-size: 10px</p>
+    <p style="font-size: 8pt">font-size:8pt</p>
+    <div style="font-size: 20px">
+      부모요소의 폰트는 20px
+      <p style="font-size: 1em">1em=20px</p>
+      <p style="font-size: 0.5em">0.5em=10px</p>
+      <p style="font-size: 1rem">1rem=16px</p>
+      <!-- 반응형 앱을 만들 때 em 을 많이 쓴다.  -->
+    </div>
+  </body>
+</html>

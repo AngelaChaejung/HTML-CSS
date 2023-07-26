@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      /* .table {
+      border: 1px solid black;
+      border-collapse: collapse;
+      width: 100%;
+    }
+   
+    .table tr th,
+    .table tr td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    .striped-table tbody tr:nth-child(2n + 1) {
+      background-color: orange;
+    } */
+      .table {
+        border: 1px solid black;
+
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- CSS적용 방법 3가지
+    1. inline style : html 시작 태그에 style속성을 통해 직접 지정
+    2. internal style : head 태그 안에 <style> 태그에 스타일을 지정
+    3. external style : 별도의 css파일을 만들고 <head>태그 안에 css 파일을 삽입해서 사용-->
+
+    <table class="table striped-table">
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>연락처</th>
+          <th>이메일</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>유재석</th>
+          <th>010-5555-5555</th>
+          <th>a@gmail.com</th>
+        </tr>
+        <tr>
+          <th>유재석</th>
+          <th>010-5555-5555</th>
+          <th>a@gmail.com</th>
+        </tr>
+        <tr>
+          <th>유재석</th>
+          <th>010-5555-5555</th>
+          <th>a@gmail.com</th>
+        </tr>
+        <tr>
+          <th>유재석</th>
+          <th>010-5555-5555</th>
+          <th>a@gmail.com</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

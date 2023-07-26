@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .text-center {
+        text-align: center;
+      }
+      .text-right {
+        text-align: right;
+      }
+      .text-left {
+        text-align: left;
+      }
+      .text-blue {
+        color: blue;
+      }
+      .underline {
+        text-decoration: underline;
+      }
+      .overline {
+        text-decoration: overline;
+      }
+      .delline {
+        text-decoration: line-through;
+      }
+      .plain {
+        text-decoration: none;
+        color: black;
+      }
+      /* text-decoration은 4가지 하위 프로퍼티가 있다.  
+        1. style (직선, 점선 등)
+        2.  장식선 종류
+        3. 장식선 색상
+        4. 장식선 두께*/
+      .underover {
+        text-decoration: dashed underline overline yellowgreen 4px;
+      }
+      .uppercase {
+        text-transform: uppercase;
+      }
+      .lowercase {
+        text-transform: lowercase;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center">가운데 정렬</h1>
+    <h1 class="text-right">오른쪽 정렬</h1>
+    <h1 class="text-left">왼쪽 정렬</h1>
+    <!-- 텍스트 색상 -->
+    <h1 class="text-blue">파란색</h1>
+    <p class="underline">밑줄을 가진 글씨</p>
+    <p class="overline">윗줄을 가진 글씨</p>
+    <p class="delline">취소선을 가진 글씨</p>
+
+    <p><a href="naver.com" class="plain"> 밑줄이 없는 a태그</a>확인</p>
+    <p class="underover">윗줄과 밑줄글씨</p>
+    <!-- 텍스트 변환 -->
+    <p class="uppercase">abcdefg</p>
+    <p class="lowercase">ABCEDFG</p>
+    <input type="text" class="uppercase" name="" id="" />
+  </body>
+</html>
